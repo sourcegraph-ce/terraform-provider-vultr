@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 	"github.com/vultr/govultr"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"strconv"
 )
